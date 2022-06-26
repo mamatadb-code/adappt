@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.para-padding {
+  padding-top: 0.5em;
+}
+img {
+  max-width: 100%;
+}
+.mainOuter {
+  background-color: rgba(37, 37, 37, 1);
+}
+.simptable{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: center;
+  padding: 8px;
+  color: rgba(255, 255, 255, 1);
+  padding: 1em;
+}
+
+.simptr:nth-child(even) {
+  background-color: rgba(50, 49, 49, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.simptr:hover{
+  background-color: rgb(80, 76, 76);
+}
+.headerContainer {
+  margin: 2em 0em;
+  background-color: rgba(53, 53, 53, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.headerRow {
+  /* padding: 2em 1em; */
+}
+.headerTab {
+  display: flex;
+  justify-content: space-between;
+}
+#btn {
+  text-decoration: none;
+  background-color: rgba(0, 147, 125, 1);
+  /* padding: 0.2em 0.2em 0.2em 0.2em; */
+
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 1px;
+  color: rgba(255, 255, 255, 1);
+}
+#btn:hover {
+  background-color: rgb(4, 102, 87);
+}
+h6 {
+  padding: 2em;
+  margin: 1em;
+}
+th {
+  color: rgba(0, 147, 125, 1);
+}
+.post {
+  color: rgba(255, 255, 255, 1);
+  font-weight: lighter;
+}
+
+/* Buttons and Secification */
+.container {
+}
+.ViewSetting {
+  display: flex;
+  justify-content: space-between;
+}
+.click-btn{
+    color: rgba(0, 147, 125, 1);
+}
+.vs,
+.specification {
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+}
+.text-light{
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+.text-center{
+    text-align: center;
+}
+.headingEmp{
+   background-color: rgba(0, 147, 125, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+.back-light{
+    background-color: rgb(216, 216, 216);
+}

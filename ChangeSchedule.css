@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .schduleChange{
+    background-color: rgb(100, 98, 98);
+  }
+  .chageScheduleBtn {
+    margin: 1em;
+    font-weight: bold;
+    padding: 0.8em 2em;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(3, 107, 91);
+    color:white;
+  }
+  .chageScheduleBtn:hover{
+    background-color: rgba(0, 147, 125, 1);
+  }
